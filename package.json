@@ -1,0 +1,32 @@
+{
+  "name": "blogging-platform-api",
+  "version": "1.0.0",
+  "description": "Backend for Blogging application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "noed --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gracmit/Blogging-platform-API.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "Postgres"
+  ],
+  "author": "Aleksi Ilmonen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gracmit/Blogging-platform-API/issues"
+  },
+  "homepage": "https://github.com/Gracmit/Blogging-platform-API#readme",
+  "dependencies": {
+    "@prisma/client": "^6.18.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "prisma": "^6.18.0"
+  }
+}
